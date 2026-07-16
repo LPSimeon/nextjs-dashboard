@@ -1,0 +1,6 @@
+allowBuilds:
+    bcrypt: true
+    sharp: true
+    electron: true
+    core-js: false
+    esbuild: false
