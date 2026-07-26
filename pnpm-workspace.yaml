@@ -1,6 +1,7 @@
 allowBuilds:
-    bcrypt: true
-    sharp: true
-    electron: true
-    core-js: false
-    esbuild: false
+  bcrypt: true
+  sharp: true
+  electron: true
+  core-js: false
+  esbuild: false
+  unrs-resolver: true
