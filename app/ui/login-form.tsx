@@ -7,7 +7,7 @@ import {
   ExclamationCircleIcon,
 } from "@heroicons/react/24/outline";
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
-import { Button } from "./button";
+import { Button } from "@/app/ui/button";
 import { useActionState } from "react";
 import { authenticate } from "@/app/lib/actions";
 import { useSearchParams } from "next/navigation";
@@ -76,7 +76,6 @@ export default function LoginForm() {
           aria-live="polite"
           aria-atomic="true"
         >
-          {/* Add form errors here */}
           {errorMessage && (
             <>
               <ExclamationCircleIcon className="h-5 w-5 text-red-500" />
